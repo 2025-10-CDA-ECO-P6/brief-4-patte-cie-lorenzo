@@ -127,11 +127,7 @@ Besoin :
 
 ## Use case : 
 
-<img width="958" height="538" alt="image" src="Use Case vétérinaire Patte & Ci.png" />
-
-
-
-
+<img width="899" height="668" alt="Use Case vétérinaire Patte   Ci" src="https://github.com/user-attachments/assets/0381ff13-c02c-4c81-b7ee-dfe26c707fc1" />
 
 
 ****
