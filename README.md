@@ -23,25 +23,25 @@ Back end : chargées via un/des fichier.s JSON
 
 US01 — Voir liste animaux
 
-En tant que Clients ,
+En tant que Propriétaire ,
 je veux voir la liste des animaux,
 afin de trouver rapidement le bon dossier.
 
 US02 — Rechercher un animal
 
-En tant que Clients ,
+En tant que Propriétaire ,
 je veux rechercher un animal par nom,
 afin de accéder plus vite à sa fiche de santé.
 
 US03 — Voir fiche animal
 
-En tant que Clients,
+En tant que Propriétaire,
 je veux afficher la fiche détaillée d’un animal,
 afin de consulter ses informations médicales.
 
 US04 — Voir les vaccins
 
-En tant que vétérinaire,
+En tant que Propriétaire,
 je veux voir les vaccins déjà faits et les rappels,
 afin de éviter les doublons et planifier les rappels.
 
@@ -107,7 +107,7 @@ Besoin :
 
 → Un outil simple qui affiche toutes les infos médicales d’un animal en un clic.
 
- Persona Client
+ Persona Propriétaire
 
 Nom : Julie Moreau
 Âge : 34 ans
@@ -127,7 +127,7 @@ Besoin :
 
 ## Use case : 
 
-<img width="899" height="668" alt="Use Case vétérinaire Patte   Ci" src="https://github.com/user-attachments/assets/0381ff13-c02c-4c81-b7ee-dfe26c707fc1" />
+<img width="899" height="668" alt="Use Case vétérinaire Patte   Ci" src="Use Case vétérinaire Patte & Ci.png" />
 
 https://app.moqups.com/j9DH05U3z1IIa9RcVKTOb3yVoQdId520/edit/page/a9ea10fe3
 ****
