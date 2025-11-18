@@ -1,25 +1,6 @@
-# Brief 4 Patte Cie
-
-
-# Cachier des charges :
-
-## Fonctionnel : 
-
--On veut consulter les carnets de santé des animaux.
--On veut voir les infos (nom, espèce, poids…).
--On veut voir vaccins + consultations.
--On veut une interface simple.
--On veut lire les données depuis un JSON.
--Pas de backend.
--Respecter la maquette Figma.
-
-## Technique : 
-Front end : HTML / CSS / JS / framework : NEXT JS
-Back end : chargées via un/des fichier.s JSON
-
 # User Stories :
 
-## Clients : 
+## Propriétaire : 
 
 US01 — Voir liste animaux
 
@@ -77,27 +58,3 @@ US05 — Voir les consultations
 En tant que personnel de la clinique,
 je veux voir les dernières consultations,
 afin de comprendre le suivi médical de l’animal.
-
-# Technical story :
-
-
-
-
-# Gestion de project :
-
-Git Flow
-
-
-
-## Use case : 
-
-I![Texte alternatif](/image/Use%20Case%20vétérinaire%20Patte%20&%20Ci.png "Le titre de mon image")
-
-
-https://app.moqups.com/j9DH05U3z1IIa9RcVKTOb3yVoQdId520/edit/page/a9ea10fe3
-****
-
-
-## MCD Modèle Conceptuel des Données 
-
-![Texte alternatif](/image/MCD%20Modèle%20Conceptuel%20des%20Données%20.png "Le titre de mon image")
