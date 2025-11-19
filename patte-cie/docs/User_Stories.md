@@ -1,5 +1,7 @@
 # User Stories :
 
+Les user stories décrivent les besoins fonctionnels du Propriétaire et du Vétérinaire afin de garantir une utilisation simple, rapide et intuitive du système.
+
 ## Propriétaire : 
 
 US01 — Voir liste animaux
