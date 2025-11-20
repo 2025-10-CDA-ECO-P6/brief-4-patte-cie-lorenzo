@@ -1,14 +1,14 @@
 # 🐾 Brief 4 — Patte & Cie
 
-## 📌 Description du projet
+##  Description du projet
 Patte & Cie est une mini-application permettant de consulter les carnets de santé des animaux d’une clinique vétérinaire.  
 Le projet utilise exclusivement des fichiers **JSON** pour charger les données, sans backend, tout en respectant la maquette Figma.
 
 ---
 
-# 📋 Cahier des charges
+# Cahier des charges
 
-## ✅ Fonctionnel
+## Fonctionnel
 - Consulter les carnets de santé des animaux.  
 - Afficher les informations d’un animal (nom, espèce, poids…).  
 - Voir les vaccins et les consultations.  

@@ -5,7 +5,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -35,8 +35,72 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #818af9;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.container h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.container button p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.shiba {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.shiba img {
+  width: 39vh;
+  height: auto;
+  display: block;
+}
+
+.hero-text span {
+  font-weight: 600;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin-bottom: 40px;
 }
