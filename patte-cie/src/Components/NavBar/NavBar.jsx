@@ -1,17 +1,19 @@
-import React from "react";
-import styles from "../NavBar/NavBar.module.css";
+import { Home, PawPrint } from "lucide-react";
 import Link from "next/link";
+import styles from "../NavBar/NavBar.module.css";
 
 const NavBar = () => {
   return (
     <section className="relative mx-auto">
       <div className={styles.bottomNav}>
         <Link href="/Home">
-          <span className={styles.navItem}>🏠</span>
+          <Home className={styles.icon} />
         </Link>
 
+        <div className={styles.separator}></div>
+
         <Link href="/Home/Animals">
-          <span className={styles.navItem}>🐶</span>
+          <PawPrint className={styles.icon} />
         </Link>
       </div>
     </section>

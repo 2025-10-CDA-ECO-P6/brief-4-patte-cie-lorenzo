@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,9 +17,14 @@ export default function Home() {
           </p>
         </button>
       </Link>
-
       <div className="shiba">
-        <img src="/Shiba.png" alt="Logo Patte & Cie" />
+        <Image
+          src="/Shiba.png"
+          alt="Logo Patte & Cie"
+          width={400}
+          height={400}
+          priority
+        />
       </div>
     </div>
   );
