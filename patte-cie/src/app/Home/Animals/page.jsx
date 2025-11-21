@@ -8,18 +8,18 @@ import Image from "next/image";
 export default function Animals() {
   return (
     <div className={styles.animalsWrapper}>
-      <h2 className={styles.header}>Your Pets</h2>
+      <h2 className={styles.header}>Vos animaux</h2>
 
       <div className={styles.topCard}>
-        <p>Welcome back! 🐾</p>
-        <p>Here are all your lovely animals.</p>
+        <p>Bienvenue ! 🐾</p>
+        <p>Voici tous vos animaux.</p>
       </div>
 
       <div className={styles.searchBox}>
         <span className={styles.searchIcon}>🔍</span>
         <input
           type="text"
-          placeholder="Find best vaccinate, treatment..."
+          placeholder="Rechercher : vaccins, consultations..."
           className={styles.searchInput}
         />
       </div>
@@ -49,7 +49,7 @@ export default function Animals() {
 
                   {owner && (
                     <p className={styles.ownerText}>
-                      Owner: {owner.firstName} {owner.lastName}
+                      Propriétaire : {owner.firstName} {owner.lastName}
                     </p>
                   )}
                 </div>

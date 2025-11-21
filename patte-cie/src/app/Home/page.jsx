@@ -11,15 +11,14 @@ export default function Home() {
       <Link href="/Home/Animals">
         <button>
           <p className="hero-text">
-            Helping you <br />
-            to keep <span>your bestie</span> <br />
-            stay healthy!
+            Nous vous aidons <br />à garder <span>votre compagnon</span> <br />
+            en pleine santé !
           </p>
         </button>
       </Link>
 
       <div className="shiba">
-        <img src="/Shiba.png" alt="Patte & Cie Logo" />
+        <img src="/Shiba.png" alt="Logo Patte & Cie" />
       </div>
     </div>
   );

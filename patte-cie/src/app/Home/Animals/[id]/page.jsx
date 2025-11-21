@@ -30,23 +30,23 @@ export default async function AnimalDetails({ params }) {
           className={styles.photo}
         />
 
-        <h3>Animal info</h3>
-        <p>Species: {animal.species}</p>
-        <p>Breed: {animal.breed}</p>
-        <p>Birth date: {animal.birthDate}</p>
+        <h3>Informations de l’animal</h3>
+        <p>Espèce : {animal.species}</p>
+        <p>Race : {animal.breed}</p>
+        <p>Date de naissance : {animal.birthDate}</p>
 
-        <h3>Owner</h3>
+        <h3>Propriétaire</h3>
         {owner ? (
           <>
             <p>
               {owner.firstName} {owner.lastName}
             </p>
-            <p>{owner.phone}</p>
-            <p>{owner.email}</p>
-            <p>{owner.address}</p>
+            <p>Téléphone : {owner.phone}</p>
+            <p>Email : {owner.email}</p>
+            <p>Adresse : {owner.address}</p>
           </>
         ) : (
-          <p>No owner found</p>
+          <p>Aucun propriétaire trouvé</p>
         )}
       </div>
 
@@ -54,21 +54,21 @@ export default async function AnimalDetails({ params }) {
         <h3>Consultations</h3>
 
         {consultations.length > 0 ? (
-          consultations.map((consultations, index) => (
+          consultations.map((consultation, index) => (
             <div key={index} className={styles.sectionContent}>
               <p>
-                <strong>Date:</strong> {consultations.date}
+                <strong>Date :</strong> {consultation.date}
               </p>
               <p>
-                <strong>Reason:</strong> {consultations.reason}
+                <strong>Motif :</strong> {consultation.reason}
               </p>
               <p>
-                <strong>Notes:</strong> {consultations.notes}
+                <strong>Notes :</strong> {consultation.notes}
               </p>
             </div>
           ))
         ) : (
-          <p>No consultations found</p>
+          <p>Aucune consultation trouvée</p>
         )}
       </div>
 
@@ -76,21 +76,22 @@ export default async function AnimalDetails({ params }) {
         <h3>Vaccinations</h3>
 
         {vaccinations.length > 0 ? (
-          vaccinations.map((vaccinations, test) => (
-            <div key={test} className={styles.sectionContent}>
+          vaccinations.map((vaccination, index) => (
+            <div key={index} className={styles.sectionContent}>
               <p>
-                <strong>Date:</strong> {vaccinations.date}
+                <strong>Date :</strong> {vaccination.date}
               </p>
 
               <p>
-                <strong>Vaccin:</strong> {vaccinations.name}
+                <strong>Vaccin :</strong> {vaccination.name}
               </p>
             </div>
           ))
         ) : (
-          <p>No vaccinations found</p>
+          <p>Aucune vaccination trouvée</p>
         )}
       </div>
+
       <NavBar />
     </div>
   );

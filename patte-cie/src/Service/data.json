@@ -22,54 +22,54 @@
     {
       "idAnimal": 1,
       "name": "Catrine",
-      "species": "Cat",
+      "species": "Chat",
       "breed": "British Shorthair",
-      "birthDate": "2021-04-15",
+      "birthDate": "15/04/2021",
       "photoUrl": "/image/catrine.png",
       "owner": 1
     },
     {
       "idAnimal": 2,
       "name": "Rex",
-      "species": "Dog",
+      "species": "Chien",
       "breed": "Golden Retriever",
-      "birthDate": "2019-11-02",
+      "birthDate": "02/11/2019",
       "photoUrl": "/image/rex.png",
       "owner": 2
     },
     {
       "idAnimal": 3,
       "name": "Mia",
-      "species": "Cat",
-      "breed": "Siamese",
-      "birthDate": "2022-06-10",
+      "species": "Chat",
+      "breed": "Siamois",
+      "birthDate": "10/06/2022",
       "photoUrl": "/image/mia.png",
       "owner": 1
     },
     {
       "idAnimal": 4,
       "name": "Eddy",
-      "species": "Cat",
-      "breed": "Siamese",
-      "birthDate": "2022-06-10",
+      "species": "Chat",
+      "breed": "Siamois",
+      "birthDate": "10/06/2022",
       "photoUrl": "/image/catrine.png",
       "owner": 1
     },
     {
       "idAnimal": 5,
       "name": "Proust",
-      "species": "Cat",
-      "breed": "Siamese",
-      "birthDate": "2022-06-10",
+      "species": "Chat",
+      "breed": "Siamois",
+      "birthDate": "10/06/2022",
       "photoUrl": "/image/mia.png",
       "owner": 1
     },
     {
       "idAnimal": 6,
       "name": "Ector",
-      "species": "Cat",
-      "breed": "Siamese",
-      "birthDate": "2022-06-10",
+      "species": "Chat",
+      "breed": "Siamois",
+      "birthDate": "10/06/2022",
       "photoUrl": "/image/shiba.png",
       "owner": 1
     }
@@ -106,23 +106,23 @@
   "consultations": [
     {
       "idConsultation": 1,
-      "date": "2024-01-12",
-      "reason": "Check-up annuel",
+      "date": "12/01/2024",
+      "reason": "Bilan annuel",
       "notes": "Animal en bonne santé",
       "animal": 1,
       "veterinarian": 1
     },
     {
       "idConsultation": 2,
-      "date": "2024-02-08",
-      "reason": "Douleur patte droite",
+      "date": "08/02/2024",
+      "reason": "Douleur à la patte droite",
       "notes": "Petite entorse, repos conseillé",
       "animal": 2,
       "veterinarian": 2
     },
     {
       "idConsultation": 3,
-      "date": "2023-12-20",
+      "date": "20/12/2023",
       "reason": "Vaccination annuelle",
       "notes": "Vaccin administré sans problème",
       "animal": 3,
@@ -136,21 +136,21 @@
       "animal": 1,
       "vaccine": 1,
       "name": "Hépatite Féline",
-      "date": "2023-11-10"
+      "date": "10/11/2023"
     },
     {
       "idVaccination": 2,
       "animal": 3,
       "vaccine": 2,
       "name": "Typhus Félin",
-      "date": "2023-08-05"
+      "date": "05/08/2023"
     },
     {
       "idVaccination": 3,
       "animal": 2,
       "vaccine": 1,
       "name": "Carré Canin",
-      "date": "2023-12-01"
+      "date": "01/12/2023"
     }
   ]
 }
