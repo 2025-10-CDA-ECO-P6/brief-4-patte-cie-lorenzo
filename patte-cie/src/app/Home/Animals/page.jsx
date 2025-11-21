@@ -1,6 +1,6 @@
-import styles from "./page.module.css";
 import NavBar from "../../../Components/NavBar/NavBar";
 import data from "../../../Service/data.json";
+import styles from "../../Home/Animals/page.module.css";
 
 import Link from "next/link";
 import Image from "next/image";
