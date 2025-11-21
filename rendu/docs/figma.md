@@ -1,3 +1,3 @@
-## MCD Modèle Conceptuel des Données 
+## MCD Modèle Conceptuel des Données
 
-![Texte alternatif](/image/Figma.png "Le titre de mon image")
+![Texte alternatif](/rendu/image/Figma.png "Le titre de mon image")
