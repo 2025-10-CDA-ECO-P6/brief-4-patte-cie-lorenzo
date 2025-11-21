@@ -91,7 +91,6 @@ export default async function AnimalDetails({ params }) {
           <p>No vaccinations found</p>
         )}
       </div>
-
       <NavBar />
     </div>
   );
